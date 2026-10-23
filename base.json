@@ -1,0 +1,38 @@
+{
+  "phase": "base",
+  "syntax": "postcss-sass",
+  "syntax_version": "0.5.0",
+  "postcss_version": "8.5.31",
+  "css": "a\n  color: red",
+  "word": "red",
+  "expected_column": 10,
+  "source": {
+    "start": {
+      "line": 2,
+      "column": 3
+    },
+    "end": {
+      "line": 2,
+      "column": 12
+    }
+  },
+  "same_node": true,
+  "reported_columns": {
+    "positionBy()": 3,
+    "rangeBy()": 3,
+    "error()": 3
+  },
+  "range": {
+    "end": {
+      "column": 13,
+      "line": 2,
+      "offset": 14
+    },
+    "start": {
+      "column": 3,
+      "line": 2,
+      "offset": 4
+    }
+  },
+  "source_frame": "  1 | a\n> 2 |   color: red\n    |   ^"
+}
