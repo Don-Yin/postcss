@@ -1,0 +1,37 @@
+{
+  "revision": "d1908579d6af4155ee5f759030184fb4c2b575ec",
+  "cases": [
+    {
+      "name": "Same-line start",
+      "css": "a b{}",
+      "requested": {
+        "line": 1,
+        "column": 3
+      },
+      "properties": {
+        "line": 1,
+        "column": 3
+      },
+      "formatted": {
+        "line": 1,
+        "column": 1
+      }
+    },
+    {
+      "name": "Multiline start",
+      "css": "a {\n b: c\n}",
+      "requested": {
+        "line": 2,
+        "column": 2
+      },
+      "properties": {
+        "line": 2,
+        "column": 2
+      },
+      "formatted": {
+        "line": 1,
+        "column": 1
+      }
+    }
+  ]
+}
