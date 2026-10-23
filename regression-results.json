@@ -1,0 +1,34 @@
+{
+  "repository": "postcss/postcss",
+  "base_sha": "d1908579d6af4155ee5f759030184fb4c2b575ec",
+  "source": "uvu regression tests in test/processor.test.ts",
+  "modes": [
+    "no plugins",
+    "sync plugin",
+    "async plugin"
+  ],
+  "categories": [
+    {
+      "label": "Result preserved",
+      "tests": [
+        "finally preserves the result with no plugins",
+        "finally preserves the result with sync plugin",
+        "finally preserves the result with async plugin"
+      ],
+      "total": 3,
+      "base": 0,
+      "fixed": 3
+    },
+    {
+      "label": "Rejection preserved",
+      "tests": [
+        "finally preserves rejection with no plugins",
+        "finally preserves rejection with sync plugin",
+        "finally preserves rejection with async plugin"
+      ],
+      "total": 3,
+      "base": 0,
+      "fixed": 3
+    }
+  ]
+}
